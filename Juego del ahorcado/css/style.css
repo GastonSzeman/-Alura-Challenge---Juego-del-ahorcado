@@ -1,0 +1,68 @@
+body{
+    background-color: #CCC;
+}
+
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(6, 60, 6);
+}
+
+.estadoJuego{
+    font-size: 50px;
+    padding: 20px;
+    margin: 2%;
+}
+
+.vidas{
+    padding: 2%;
+    margin: auto;
+    font-size: 50px;    
+}
+
+.juego{
+    border: solid 3px #000;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+}
+
+.palabraElegida{
+    padding: 2%;
+    font-size: 100px;
+    color: rgb(24, 15, 109);
+    display: block;
+    text-align: center;
+}
+
+.etiqueta{
+    font-size: 70px;
+    display: block;
+    padding: 2%;
+}
+
+#entrada{
+    width: 500px;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    display: block;
+}
+
+.btnDatos{
+    display: block;
+    margin: 10px auto;
+    font-size: 60px;
+    padding: 30px 60px 30px 60px;
+    border-radius: 100px;
+    background-color: rgb(131, 88, 10);
+    color: white;
+    width: 500px;
+}
+
+.btnDatos:hover{
+    color: black;
+    background-color: chocolate;
+    transition: .2s;
+}
+
